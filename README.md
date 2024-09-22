@@ -26,7 +26,8 @@ Funkcionalnosti:
     Izmena šifre - službenik ima mogućnost da izmrni svoju šifru
 
 Korištene tehnologije:
-
   backend: Node.js, Express
+  
   frontend: TypeScript, React
+  
   baza podataka: MySQL

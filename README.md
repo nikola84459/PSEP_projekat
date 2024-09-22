@@ -4,6 +4,7 @@ Postoje dve uloge korisnika: "Korisnik(klijent banke)" i "Službenik"
 Funkcionalnosti:
 
   Korisnik:
+  
     Pregled računa - kada se korisnik prijavi na sistem otvara mu se stranica gde ima mogućnost da vidi sve svoje račune
     Pregled transakcija po računu - korisnik klikom na broj računa ima mogućnost pregleda svih izvršenih transakcija po računu
     Prenos novca - korisnik ima mogućnos za prenos novca kako između svojih računa tako i na račune drugih korisnika
@@ -12,6 +13,7 @@ Funkcionalnosti:
     Izmena šifre - korisnik ima mogućnost izmene šifre
 
   Službenik:
+  
     Pretraga korisnika - službenik ima mogućnost pretrage korisnika po imenu i prezimenu, broju lične karte ili JMBG-u
     Pregled podataka korisnika i pregled korisnikovih računa - službenik ima mogućnost kada nakon pretrage pristupi određenom korisniku da vidi njegove podatke kao i njegove račune
     Otvaranje računa za novog korisnika - Službenik ima mogućnost da doda novog korisnika u sistem i nakon toga otvori račun za tog korisnika

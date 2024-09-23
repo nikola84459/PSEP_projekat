@@ -27,7 +27,7 @@ Funkcionalnosti:
 
 Korištene tehnologije:
 
-  backend: Node.js, Express
+  backend: Node.js, TypeScript, Express
   
   frontend: TypeScript, React
   

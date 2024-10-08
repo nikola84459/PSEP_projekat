@@ -29,6 +29,6 @@ Korištene tehnologije:
 
   backend: Node.js, TypeScript, Express
   
-  frontend: TypeScript, React
+  frontend: TypeScript, React, Bootstrap
   
   baza podataka: MySQL

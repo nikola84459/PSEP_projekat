@@ -1,34 +1,42 @@
-U ovom projektu je razvijena Web aplikacija za informacioni sistem banke.
-Postoje dve uloge korisnika: "Korisnik(klijent banke)" i "Službenik"
 
-Funkcionalnosti:
+Description:
 
-  Korisnik:
-  
-    Pregled računa - kada se korisnik prijavi na sistem otvara mu se stranica gde ima mogućnost da vidi sve svoje račune
-    Pregled transakcija po računu - korisnik klikom na broj računa ima mogućnost pregleda svih izvršenih transakcija po računu
-    Prenos novca - korisnik ima mogućnos za prenos novca kako između svojih računa tako i na račune drugih korisnika
-    Menjačnica - ukoliko korisnik ima i dinarski i devizni račun ima mogućnos da izvrši razmenu novca u ili iz value koju odabere i koju podržava devizni račun
-    Pregled ličnih podataka - korisnik ima mogućnost pregleda svojih ličnih podataka kojima banka raspolaže
-    Izmena šifre - korisnik ima mogućnost izmene šifre
+This project involves the development of a web application for a bank's information system. There are two user roles: "User (bank client)" and "Clerk."
 
-  Službenik:
-  
-    Pretraga korisnika - službenik ima mogućnost pretrage korisnika po imenu i prezimenu, broju lične karte ili JMBG-u
-    Pregled podataka korisnika i pregled korisnikovih računa - službenik ima mogućnost kada nakon pretrage pristupi određenom korisniku da vidi njegove podatke kao i njegove račune
-    Otvaranje računa za novog korisnika - Službenik ima mogućnost da doda novog korisnika u sistem i nakon toga otvori račun za tog korisnika
-    Otvaranje računa za postojećeg korisnika - Ukoliko postojeći korisnik želi da otvori još jedan račun službenik nakon pretrage i pristupa tom korisniku ima mogućnost da otvori novi račun za njega
-    Brisanje korisnika - Službenik ima mogućnost da obriše korisnika
-    Zatvaranje računa - Službenik ima mogućnost da zatvori račun za korisnika
-    Isplata novca sa računa - ukoliko korisnik želi da podigne novac na šalteru banke, službenik ima mogućnost da izvrši isplatu novca sa računa korisnika
-    Izmena podataka za korisnika - ukoliko je potrebno službenik ima mogućnost da izvrši izmenu podataka za korisnika
-    Pregled ličnih podataka - službenik takođe ima mogućnost da pregleda svoje lične podatke
-    Izmena šifre - službenik ima mogućnost da izmrni svoju šifru
+Functionality:
 
-Korištene tehnologije:
+User:
 
-  backend: Node.js, TypeScript, Express
-  
-  frontend: TypeScript, React, React Bootstrap
-  
-  baza podataka: MySQL
+Account Overview - When the user logs into the system, a page opens where they can view all their accounts.
+Transaction History per Account - By clicking on an account number, the user can view all transactions associated with that account.
+Money Transfer - The user can transfer money between their own accounts as well as to other users' accounts.
+Currency Exchange - If the user has both a dinar and a foreign currency account, they can exchange money between the two, selecting the type of currency supported by the foreign currency account.
+Personal Data Overview - The user can view the personal data held by the bank.
+Change Password - The user can change their password.
+
+Clerk:
+
+Search User - The clerk can search for a user by name, surname, personal identification number, or JMBG (unique identification number).
+View User Data and Accounts - After searching, the clerk can view the user’s data as well as their accounts.
+Open Account for New User - The clerk can add a new user to the system and open an account for them.
+Open Account for Existing User - If an existing user wishes to open another account, the clerk can do so after searching for and accessing the user's profile.
+Delete User - The clerk has the ability to delete a user from the system.
+Close Account - The clerk can close an account for the user.
+Cash Withdrawal from Account - If the user wishes to withdraw money at the bank counter, the clerk can process the withdrawal from the user’s account.
+Edit User Data - The clerk can edit user data if necessary.
+View Personal Data - The clerk can also view their own personal data.
+Change Password - The clerk can change their password.
+
+Technologies Used:
+
+Backend:
+
+Node.js, TypeScript, Express
+
+Frontend:
+
+TypeScript, React, React Bootstrap
+
+Database:
+
+MySQL
